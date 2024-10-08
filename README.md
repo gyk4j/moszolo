@@ -7,6 +7,10 @@ Inspired and rewritten from
 Written for learning and practising [AutoIt][autoit] and [PowerShell][pwsh] 
 scripting.
 
+Created after watching :tv:
+
+[![CyberCPU Tech: How To Get Legit Microsoft Office For Free](https://img.youtube.com/vi/ud0WTQcTgSE/0.jpg)](https://www.youtube.com/watch?v=ud0WTQcTgSE)
+
 # How it works
 
 Office 2010 Starter Edition is packaged using the [Microsoft App-V][ms-app-v] 
