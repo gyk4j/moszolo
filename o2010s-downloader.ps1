@@ -1,6 +1,6 @@
 ﻿[bool]$DEBUG = $false
 
-[string]$lang = 'ja-jp'
+[string]$lang = 'en-us'
 [string]$version = '14.0.4763.1000'
 
 function Download-Urls( [Collections.Generic.List[string]]$Urls ){
