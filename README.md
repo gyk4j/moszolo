@@ -17,14 +17,12 @@ scripting.
 
 # About the name
 
-moszolo is a portmanteau of *Microsoft Office Starter 2010*, with the digits 
-replaced with a similar looking letters like in [leet][leet]. This makes it 
-unlikely to be confused with any names or trademarks associated with the 
+**moszolo** is a portmanteau of *Microsoft Office Starter 2010*, with the 
+digits replaced with similar-looking letters like in [leet][leet]. This makes 
+it unlikely to be confused with any names or trademarks associated with the 
 company in [Redmond, Washington][redmond].
 
-```
-<ins>m</ins>icrosoft <ins>o</ins>ffice <ins>s</ins>tarter <ins>2010</ins> 
-```
+<ins>m</ins>icrosoft <ins>o</ins>ffice <ins>s</ins>tarter <ins>2010</ins>  
 
 # How it works
 
