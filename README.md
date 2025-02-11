@@ -1,7 +1,8 @@
-# o2010s
+# moszolo
 PowerShell script to download the free 
 [Microsoft Office Starter 2010][msoffice-starter-2010] as a locally-cached copy 
-for reuse or archival.
+for reuse or archival. In a way, it is analogous to the 
+[Media Creation Tool][media-creation-tool] for Windows.
 
 Created after watching 
 [CyberCPU Tech: How To Get Legit Microsoft Office For Free][cybercpu] :tv:
@@ -14,11 +15,22 @@ Inspired and rewritten from
 Written for studying [AutoIt][autoit] and practising [PowerShell][pwsh] 
 scripting.
 
+# About the name
+
+moszolo is a portmanteau of *Microsoft Office Starter 2010*, with the digits 
+replaced with a similar looking letters like in [leet][leet]. This makes it 
+unlikely to be confused with any names or trademarks associated with the 
+company in [Redmond, Washington][redmond].
+
+```
+<ins>m</ins>icrosoft <ins>o</ins>ffice <ins>s</ins>tarter <ins>2010</ins> 
+```
+
 # How it works
 
 In [Microsoft's own words][msoffice-starter-2010],
 
-> Microsoft Office Starter 2010 is a simplified, ad-funded version of Microsoft 
+> Microsoft Office 2010 Starter is a simplified, ad-funded version of Microsoft 
 > Office 2010 that comes pre-loaded and ready to use on your computer. Office 
 > Starter includes the spreadsheet program Microsoft Excel Starter 2010 and the 
 > word processing program Microsoft Word Starter 2010.
@@ -27,7 +39,7 @@ Microsoft Office Starter 2010 is packaged using the [Microsoft App-V][ms-app-v]
 virtualization technology for downloading and running on-demand without prior 
 installation.
 
-`o2010s` is a PowerShell script that downloads the appropriate required files 
+`moszolo` is a PowerShell script that downloads the appropriate required files 
 for Microsoft Office Starter 2010 to install and run successfully. To do so, it
 downloads and parses the App-V's manifest and catalog files in XML format. 
 
@@ -46,7 +58,7 @@ A word of caution against using Microsoft Office 2010 though.
 > updates and perhaps plenty of security vulnerabilities ever since 
 > [support ended on October 13, 2020][support-end].
 > 
-> There is a safer yet free alternative available (see recommendations).
+> There are safer free alternatives available (see recommendations).
 
 # Use Case
 
@@ -72,7 +84,7 @@ then?
 
 # Usage
 
-*o2010s* only requires *PowerShell 3.0* and above.
+*moszolo* only requires *PowerShell 3.0* and above.
 
 Windows 10 and 11 come with *PowerShell 5.1* out-of-the-box, so no further 
 action is required.
@@ -80,13 +92,13 @@ action is required.
 From `PowerShell`
 
 ```pwsh
-.\o2010s-downloader.ps1
+.\moszolo.ps1
 ```
 
 From `Command Prompt`
 
 ```bat
-powershell.exe o2010s-downloader.ps1
+powershell.exe moszolo.ps1
 ```
 
 # Settings and Customizations
@@ -108,9 +120,12 @@ to specify custom settings before executing the script. They include:
 | en-us | English    | it-it | Italian    | pt-br | Portuguese | zh-tw | Chinese T. |
 | es-es | Spanish    | ja-jp | Japanese   | ru-ru | Russian    |       |            |
 
+[media-creation-tool]: https://www.microsoft.com/en-us/software-download/windows10
 [msoffice-starter-2010]: https://support.microsoft.com/en-gb/office/getting-started-with-office-starter-379fba5a-6d82-4e19-aa2e-d41627f5ea5e
 [downloader]: https://www.autoitscript.com/forum/topic/205471-office-2010-starter-downloader/
 [autoit]: https://www.autoitscript.com/site/
+[leet]: https://en.wikipedia.org/wiki/Leet
+[redmond]: https://en.wikipedia.org/wiki/Redmond,_Washington
 [pwsh]: https://learn.microsoft.com/en-us/powershell/
 [cybercpu]: https://www.youtube.com/watch?v=ud0WTQcTgSE
 [ms-app-v]: https://en.wikipedia.org/wiki/Microsoft_App-V
