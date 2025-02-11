@@ -48,6 +48,17 @@ A word of caution against using Microsoft Office 2010 though.
 > 
 > There is a safer yet free alternative available (see recommendations).
 
+# Use Case
+
+If use of Microsoft Office 2010 is discouraged today, what is it useful for 
+then?
+
+> [!TIP]
+> If it is for doing *offline* document processing on a PC/laptop disconnected 
+> from the Internet, and we cannot utilize the cloud-hosted SaaS solutions like 
+> [Office 365][office-web-apps] and [Google Docs][gdocs], perhaps it is a good
+> enough freeware solution.
+
 # Recommendations
 
 - Use [Microsoft Office Web Apps][office-web-apps] with a 
@@ -88,25 +99,14 @@ to specify custom settings before executing the script. They include:
   testing during development only. (default: `false`)
 - `$lang`: Downloads the "English-US" version by default. (default: `en-us`)
   Languages still available for download include:
-  - ar-sa (Arabic)
-  - da-dk (Danish)
-  - de-de (German)
-  - en-us (English)
-  - es-es (Spanish)
-  - fr-fr (French)
-  - he-il (Hebrew)
-  - hi-in (Hindi)
-  - it-it (Italian)
-  - ja-jp (Japanese)
-  - ko-kr (Korean)
-  - nl-nl (Dutch)
-  - pl-pl (Polish)
-  - pt-br (Portuguese)
-  - ru-ru (Russian)
-  - sv-se (Swedish)
-  - th-th (Thai)
-  - zh-cn (Chinese Simplified)
-  - zh-tw (Chinese Traditional)
+
+| ID    | Language   | ID    | Language   | ID    | Language   | ID    | Language   |
+| ----- | ---------- | ----- | ---------- | ----- | ---------- | ----- | ---------- |
+| ar-sa | Arabic     | fr-fr | French     | ko-kr | Korean     | sv-se | Swedish    |
+| da-dk | Danish     | he-il | Hebrew     | nl-nl | Dutch      | th-th | Thai       |
+| de-de | German     | hi-in | Hindi      | pl-pl | Polish     | zh-cn | Chinese S. |
+| en-us | English    | it-it | Italian    | pt-br | Portuguese | zh-tw | Chinese T. |
+| es-es | Spanish    | ja-jp | Japanese   | ru-ru | Russian    |       |            |
 
 [msoffice-starter-2010]: https://support.microsoft.com/en-gb/office/getting-started-with-office-starter-379fba5a-6d82-4e19-aa2e-d41627f5ea5e
 [downloader]: https://www.autoitscript.com/forum/topic/205471-office-2010-starter-downloader/
@@ -116,4 +116,5 @@ to specify custom settings before executing the script. They include:
 [ms-app-v]: https://en.wikipedia.org/wiki/Microsoft_App-V
 [support-end]: https://support.microsoft.com/en-us/office/end-of-support-for-office-2010-3a3e45de-51ac-4944-b2ba-c2e415432789
 [office-web-apps]: https://www.office.com/?ms.officeurl=webapps
+[gdocs]: https://docs.google.com
 [ms-acct]: https://account.microsoft.com/account/Account
