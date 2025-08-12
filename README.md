@@ -1,3 +1,5 @@
+[![CI](https://github.com/gyk4j/moszolo/actions/workflows/ci.yml/badge.svg)](https://github.com/gyk4j/moszolo/actions/workflows/ci.yml)
+
 # moszolo
 PowerShell script to download the free 
 [Microsoft Office Starter 2010][msoffice-starter-2010] as a locally-cached copy 
